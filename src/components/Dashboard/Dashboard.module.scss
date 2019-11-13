@@ -1,0 +1,36 @@
+$COLUMN_SPACING: 16px;
+$PIN_WIDTH: 280px;
+
+@value COLUMN_SPACING: #{$COLUMN_SPACING};
+@value MAX_PIN_HEIGHT: 600px;
+@value MAX_PIN_WIDTH: #{$PIN_WIDTH + $COLUMN_SPACING};
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  margin-left: calc(-1 * COLUMN_SPACING);
+}
+
+.column {
+  padding-left: COLUMN_SPACING;
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-height: MAX_PIN_HEIGHT;
+  width: #{$PIN_WIDTH};
+
+  border-radius: 4px;
+  overflow: hidden;
+
+  & + & {
+    margin-top: 16px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
