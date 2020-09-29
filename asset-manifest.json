@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pinterest-dashboard/static/css/main.e41d175b.chunk.css",
+    "main.js": "/pinterest-dashboard/static/js/main.b360c247.chunk.js",
+    "main.js.map": "/pinterest-dashboard/static/js/main.b360c247.chunk.js.map",
+    "runtime-main.js": "/pinterest-dashboard/static/js/runtime-main.edd90828.js",
+    "runtime-main.js.map": "/pinterest-dashboard/static/js/runtime-main.edd90828.js.map",
+    "static/js/2.705efefa.chunk.js": "/pinterest-dashboard/static/js/2.705efefa.chunk.js",
+    "static/js/2.705efefa.chunk.js.map": "/pinterest-dashboard/static/js/2.705efefa.chunk.js.map",
+    "index.html": "/pinterest-dashboard/index.html",
+    "precache-manifest.453d4ff0dc84468b25a44c640245c6b7.js": "/pinterest-dashboard/precache-manifest.453d4ff0dc84468b25a44c640245c6b7.js",
+    "service-worker.js": "/pinterest-dashboard/service-worker.js",
+    "static/css/main.e41d175b.chunk.css.map": "/pinterest-dashboard/static/css/main.e41d175b.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edd90828.js",
+    "static/js/2.705efefa.chunk.js",
+    "static/css/main.e41d175b.chunk.css",
+    "static/js/main.b360c247.chunk.js"
+  ]
+}
