@@ -4,7 +4,7 @@
   "private": true,
   "homepage" : "http://ericleite.github.io/pinterest-dashboard",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "localforage": "^1.7.3",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.0",
